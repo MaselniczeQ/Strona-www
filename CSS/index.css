@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&display=swap');
+html, body{
+    background-image: url(../IMG/background.png);
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+#banner{
+    text-align: center;
+    color: black;
+    font-size: 23px;
+    font-family: 'Chivo Mono', monospace;
+    color: #303030;
+}
+#container{
+
+	position:relative;
+}
+article, header{
+    font-size:  18px;
+    text-align: center;
+    font-family: 'Chivo Mono', monospace;
+    color: #303030;
+}
+.guzik a{
+    text-decoration: none;
+    color: #fff;
+}
+#content{
+    min-height:100vh;
+}
+.guzik button{
+    background-color: wheat;
+    font-family: 'Chivo Mono', monospace;
+    color: #303030;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 1s;
+}
+.guzik button:hover{
+    background-color: transparent;
+    color: #303030;
+    border: 2px solid #303030;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    height: 10vh;
+    width:100%;
+    color: #303030;
+    font-family: 'Chivo Mono', monospace;
+    text-align: center;
+}
+article a{
+    text-decoration: none;
+    color: #303030;
+}
+article a:hover{
+    text-decoration: underline;
+    color: blue;
+}
